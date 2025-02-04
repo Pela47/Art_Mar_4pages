@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objs as go
+import plotly.graph_objects as go  # En lugar de import plotly.graph_objs as go
 import database_init
 
 def obtener_datos_calificaciones():
